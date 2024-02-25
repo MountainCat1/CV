@@ -1,0 +1,13 @@
+.side-nav-content {
+  padding: 1.6em;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav-content > * {
+  padding: 2em;
+  display: flex;
+  justify-content: left;
+  column-gap: 1em;
+}
