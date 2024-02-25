@@ -43,7 +43,7 @@ $CV-dark-theme: mat.define-dark-theme((
 @include mat.all-component-themes($CV-dark-theme);
 
 .mat-drawer-backdrop.mat-drawer-shown {
-  background-color: rgba(0, 0, 0, 0.34);
+  background-color: rgba(0, 0, 0, 0.34) !important;
   backdrop-filter: blur(10px);
 }
 

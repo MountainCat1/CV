@@ -10,4 +10,8 @@ export class NavigationService {
   toProjects() {
 
   }
+
+  toHome() {
+
+  }
 }
